@@ -1,0 +1,29 @@
+2021-09-15 12:57:04,270 : INFO :test_sauce_website Entering values in the homepage
+2021-09-15 12:57:04,654 : INFO :test_sauce_website Getting all the products
+2021-09-15 12:57:04,677 : INFO :test_sauce_website Selecting product 
+2021-09-15 12:57:04,704 : INFO :test_sauce_website Selecting product 
+2021-09-15 12:57:04,739 : INFO :test_sauce_website Selecting product 
+2021-09-15 12:57:04,754 : INFO :test_sauce_website Selecting product 
+2021-09-15 12:57:04,875 : INFO :test_sauce_website Selecting product 
+2021-09-15 12:57:04,900 : INFO :test_sauce_website Selecting product 
+2021-09-15 12:57:05,069 : INFO :test_sauce_website The item name selected Sauce Labs Fleece Jacket
+2021-09-15 12:57:05,174 : INFO :test_sauce_website Entering checkout details
+2021-09-15 12:57:05,607 : INFO :test_sauce_website The total price of product 53.99
+2021-09-15 12:59:37,639 : INFO :test_sauce_website Entering values in the homepage
+2021-09-15 12:59:38,046 : INFO :test_sauce_website Getting all the products
+2021-09-15 12:59:38,209 : INFO :test_sauce_website Product selected: Sauce Labs Fleece Jacket and original price: $49.99
+2021-09-15 12:59:38,398 : INFO :test_sauce_website The item name selected Sauce Labs Fleece Jacket
+2021-09-15 12:59:38,492 : INFO :test_sauce_website Entering checkout details
+2021-09-15 12:59:38,927 : INFO :test_sauce_website The total price of product (price+tax) : 53.99
+2021-09-15 13:02:28,208 : INFO :test_sauce_website Entering values in the homepage
+2021-09-15 13:02:28,766 : INFO :test_sauce_website Getting all the products
+2021-09-15 13:02:28,979 : INFO :test_sauce_website Product selected: Sauce Labs Fleece Jacket and original price: $49.99
+2021-09-15 13:02:29,510 : INFO :test_sauce_website The item name selected Sauce Labs Fleece Jacket
+2021-09-15 13:02:29,791 : INFO :test_sauce_website Entering checkout details
+2021-09-15 13:02:30,177 : INFO :test_sauce_website The total price of product (price+tax) : 53.99
+2021-09-15 13:22:20,659 : INFO :test_sauce_website Entering values in the homepage
+2021-09-15 13:22:21,470 : INFO :test_sauce_website Getting all the products
+2021-09-15 13:22:21,596 : INFO :test_sauce_website Product selected: Sauce Labs Fleece Jacket and original price: $49.99
+2021-09-15 13:22:22,101 : INFO :test_sauce_website The item name selected Sauce Labs Fleece Jacket
+2021-09-15 13:22:22,397 : INFO :test_sauce_website Entering checkout details
+2021-09-15 13:22:22,794 : INFO :test_sauce_website The total price of product (price+tax) : 53.99
