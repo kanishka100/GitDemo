@@ -7,6 +7,7 @@ import pytest
 @pytest.mark.usefixtures('setup')
 class Base_Class:
     def get_logger(self):
+        # this is how you get the name of the file who called the method
         logger_name = inspect.stack()[1][3]
         logger = logging.getLogger(logger_name)
 
@@ -18,4 +19,3 @@ class Base_Class:
 
         logger.setLevel(logging.DEBUG)
         return logger
-

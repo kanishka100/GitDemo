@@ -10,7 +10,7 @@ class Test_Sauce(Base_Class):
         url = 'https://www.saucedemo.com/'
         log = self.get_logger()
 
-        self.driver.get(url)
+        self.driver.get(url=url)
         login_obj = Login_page(self.driver)
         log.info("Entering values in the homepage")
         login_obj.send_user_name().send_keys(get_login_data['username'])
@@ -19,14 +19,13 @@ class Test_Sauce(Base_Class):
         home_page_obj = login_obj.click_login_button()
 
         # second page
-        log.info("Getting all the products")
+        log.info("Getting all the products from homepage.")
         products = home_page_obj.get_all_products()
         price, price_list, i = 0, [], -1
         for product in products:
             # NOTE: starting index =0
             i = i + 1
             if product.text == get_homepage_data['product_name']:
-
                 # find all the elements individually as done here (find elements) not a single element but multiple then u can use index to move
                 price = home_page_obj.product_price()[i].text
                 log.info(f"Product selected: {product.text}\n Price of product: {price}")
@@ -56,6 +55,7 @@ class Test_Sauce(Base_Class):
         assert price_got.split()[1].split("$")[1] == str(float(price_list[1]) + 4.00)
         check_out_obj.click_finish_button().click()
 
+    # they are the data driven fixtures
     @pytest.fixture(params=Test_Data.test_login_data)
     def get_login_data(self, request):
         return request.param
