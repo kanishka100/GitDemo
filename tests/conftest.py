@@ -17,8 +17,7 @@ def setup(request):
         driver = webdriver.Chrome(executable_path="C:\chromedriver.exe")
     elif browser_name == "firefox":
         driver = webdriver.Firefox(executable_path="C:\geckodriver.exe")
-    elif browser_name == "IE":
-        print("IE not present")
+
     # to avoid the return statement
     request.cls.driver = driver
     yield

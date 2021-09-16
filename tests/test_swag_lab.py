@@ -29,7 +29,7 @@ class Test_Sauce(Base_Class):
 
                 # find all the elements individually as done here (find elements) not a single element but multiple then u can use index to move
                 price = home_page_obj.product_price()[i].text
-                log.info(f"Product selected: {product.text} and original price: {price}")
+                log.info(f"Product selected: {product.text}\n Price of product: {price}")
                 price_list = price.split("$")
                 home_page_obj.add_to_cart().click()
         # object of the checkout page
